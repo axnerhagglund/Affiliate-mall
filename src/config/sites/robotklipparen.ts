@@ -23,8 +23,9 @@ const robotklipparenSite: SiteConfig = {
     title: "Rätt robotgräsklippare för din trädgård",
     highlight: "robotgräsklippare",
     lead: "Kabel eller RTK, hur stor yta, hur brant slänt – och hur du får den att hålla. Vi går igenom det som avgör, med tillverkarnas egna anvisningar som källa.",
-    image: null,
-    imageAlt: "",
+    image: "/images/robotklipparen/hero-tradgard.webp",
+    imageFocusX: 72,
+    imageAlt: "Robotgräsklippare på en solbelyst gräsmatta framför ett rött trähus med björkar och syrenbuskar.",
   },
   pillar: { slug: "robotgrasklippare", navLabel: "Guiden", guideName: "guiden" },
   categories: [
