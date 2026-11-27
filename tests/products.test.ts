@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
 import { test } from "node:test";
+import matter from "gray-matter";
 import { networkHosts, retailers } from "@/config/retailers";
 import { affiliateUrl, formatPrice, parseProducts } from "@/lib/products";
 
@@ -46,7 +47,9 @@ test("MDX never links to a store or network directly", () => {
   const hits: string[] = [];
   for (const site of sites) {
     for (const file of mdxFiles(path.join(contentRoot, site))) {
-      const text = fs.readFileSync(file, "utf8");
+      // `sources` may cite a store's own fact pages (a manufacturer's manual, say); everything else is checked.
+      const { data, content } = matter(fs.readFileSync(file, "utf8"));
+      const text = `${JSON.stringify({ ...data, sources: undefined })}\n${content}`;
       for (const host of hosts) if (text.includes(host)) hits.push(`${path.relative(process.cwd(), file)}: ${host}`);
     }
   }
