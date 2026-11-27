@@ -1,5 +1,4 @@
 import exempelSite from "./exempel";
-import robotklipparenSite from "./robotklipparen";
 import testSite from "./test-site";
 import type { SiteConfig } from "./types";
 
@@ -13,11 +12,10 @@ export type { SiteConfig, Category, FaqItem, BreederMapModule, StatisticsModule 
 const sites: Record<string, SiteConfig> = {
   [exempelSite.slug]: exempelSite,
   [testSite.slug]: testSite,
-  [robotklipparenSite.slug]: robotklipparenSite,
 };
 
 /** The site this repo deploys when SITE is not set. Change this to your own site's slug. */
-const DEFAULT_SITE = robotklipparenSite.slug;
+const DEFAULT_SITE = exempelSite.slug;
 
 /** Every configured site, for tests that check all of them. */
 export const allSites = Object.values(sites);
