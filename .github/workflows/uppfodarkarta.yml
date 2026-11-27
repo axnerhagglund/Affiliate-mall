@@ -1,0 +1,55 @@
+# Optional module: weekly update of the breeder map (site.modules.breederMap) from a
+# breed club's lists. Only runs by hand until you turn the schedule on below,
+# which you do only on a site that uses the breeder map. See docs/07-moduler.md.
+# Opens (or updates) one pull request when the kennel data changed; does nothing otherwise.
+# Repo setting needed once: Settings → Actions → General → Workflow permissions →
+# "Allow GitHub Actions to create and approve pull requests".
+name: Uppdatera uppfödarkartan
+
+on:
+  # schedule:
+  #   - cron: "17 5 * * 1" # Mondays 05:17 UTC (06:17 or 07:17 in Sweden)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: uppfodarkarta
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Läs rasklubbens kullista
+        run: npm run scrape-breeders
+        env:
+          SCRAPE_SUMMARY: ${{ runner.temp }}/scrape-summary.md
+
+      - name: Kontrollera datan
+        run: npm test
+
+      - name: Öppna eller uppdatera PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automatisk/uppfodarkarta
+          delete-branch: true
+          add-paths: |
+            src/data/*/breeders.json
+            src/data/towns.json
+          commit-message: "Uppfödarkartan: veckans uppdatering från rasklubbens kullista"
+          title: "Uppfödarkartan: veckans uppdatering"
+          body-path: ${{ runner.temp }}/scrape-summary.md
+          labels: uppfodarkarta

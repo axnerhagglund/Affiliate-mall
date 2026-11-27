@@ -1,0 +1,62 @@
+[
+  {
+    "id": "exempelprodukt-a",
+    "name": "Exempelprodukt A",
+    "category": "exempel",
+    "image": "/demo/produkt-1.png",
+    "imageAlt": "Bild på Exempelprodukt A",
+    "shortDescription": "Påhittad produkt som visar hur ett produktkort ser ut, med två butiker och ett gammalt pris.",
+    "bestFor": "Den som vill ha allt",
+    "badge": "Redaktörens val",
+    "offers": [
+      {
+        "retailer": "butik-a",
+        "url": "https://example.com/butik-a/a",
+        "price": 649,
+        "oldPrice": 729,
+        "priceCheckedAt": "2026-11-26"
+      },
+      {
+        "retailer": "butik-b",
+        "url": "https://example.com/butik-b/a",
+        "price": 679,
+        "priceCheckedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "exempelprodukt-b",
+    "name": "Exempelprodukt B",
+    "category": "exempel",
+    "image": "/demo/produkt-2.png",
+    "shortDescription": "Påhittad produkt med ett lägre pris, för att visa märkningen Bäst i budget.",
+    "bestFor": "Den som vill spara",
+    "badge": "Bäst i budget",
+    "offers": [
+      {
+        "retailer": "butik-a",
+        "url": "https://example.com/butik-a/b",
+        "price": 449,
+        "priceCheckedAt": "2026-11-26"
+      }
+    ],
+    "imageAlt": "Bild på Exempelprodukt B"
+  },
+  {
+    "id": "exempelprodukt-c",
+    "name": "Exempelprodukt C",
+    "category": "exempel",
+    "image": "/demo/produkt-3.png",
+    "shortDescription": "Påhittad produkt utan märkning, för att visa ett vanligt kort.",
+    "offers": [
+      {
+        "retailer": "butik-b",
+        "url": "https://example.com/butik-b/c",
+        "price": 289.9,
+        "priceCheckedAt": "2026-11-20"
+      }
+    ],
+    "bestFor": "Den som vill ha något enkelt",
+    "imageAlt": "Bild på Exempelprodukt C"
+  }
+]

@@ -1,0 +1,819 @@
+{
+  "Enköping|Uppsala län": {
+    "lat": 59.64,
+    "lng": 17.08
+  },
+  "Löddeköpinge|Skåne län": {
+    "lat": 55.76,
+    "lng": 13
+  },
+  "Höllviken|Skåne län": {
+    "lat": 55.41,
+    "lng": 12.96
+  },
+  "Lidköping|Västra Götalands län": {
+    "lat": 58.5,
+    "lng": 13.16
+  },
+  "Fristad|Västra Götalands län": {
+    "lat": 57.82,
+    "lng": 13.01
+  },
+  "Tösse|Västra Götalands län": {
+    "lat": 58.97,
+    "lng": 12.64
+  },
+  "Åmål|Västra Götalands län": {
+    "lat": 58.98,
+    "lng": 12.61
+  },
+  "Säffle|Värmlands län": {
+    "lat": 59.12,
+    "lng": 12.85
+  },
+  "Gävle|Dalarnas län/Gävleborgs län": {
+    "lat": 60.68,
+    "lng": 17.15,
+    "county": "Gävleborgs län"
+  },
+  "Vikmanshyttan|Dalarnas län/Gävleborgs län": {
+    "lat": 60.3,
+    "lng": 15.83,
+    "county": "Dalarnas län"
+  },
+  "Boda Kyrkby|Dalarnas län/Gävleborgs län": {
+    "lat": 61.01,
+    "lng": 15.21,
+    "county": "Dalarnas län"
+  },
+  "Insjön|Dalarnas län/Gävleborgs län": {
+    "lat": 60.68,
+    "lng": 15.09,
+    "county": "Dalarnas län"
+  },
+  "Torsåker|Dalarnas län/Gävleborgs län": {
+    "lat": 60.51,
+    "lng": 16.48,
+    "county": "Gävleborgs län"
+  },
+  "Grängesberg|Dalarnas län/Gävleborgs län": {
+    "lat": 60.08,
+    "lng": 15.01,
+    "county": "Dalarnas län"
+  },
+  "Malungsfors|Dalarnas län/Gävleborgs län": {
+    "lat": 60.73,
+    "lng": 13.55,
+    "county": "Dalarnas län"
+  },
+  "Mölnlycke|Västra Götalands län/Hallands län": {
+    "lat": 57.66,
+    "lng": 12.11,
+    "county": "Västra Götalands län"
+  },
+  "Ödsmål|Västra Götalands län/Hallands län": {
+    "lat": 58.11,
+    "lng": 11.86,
+    "county": "Västra Götalands län"
+  },
+  "Hindås|Västra Götalands län/Hallands län": {
+    "lat": 57.7,
+    "lng": 12.45,
+    "county": "Västra Götalands län"
+  },
+  "Askim|Västra Götalands län/Hallands län": {
+    "lat": 57.63,
+    "lng": 11.94,
+    "county": "Västra Götalands län"
+  },
+  "Hällingsjö|Västra Götalands län/Hallands län": {
+    "lat": 57.62,
+    "lng": 12.44,
+    "county": "Västra Götalands län"
+  },
+  "Landvetter|Västra Götalands län/Hallands län": {
+    "lat": 57.69,
+    "lng": 12.22,
+    "county": "Västra Götalands län"
+  },
+  "Uddevalla|Västra Götalands län/Hallands län": {
+    "lat": 58.35,
+    "lng": 11.94,
+    "county": "Västra Götalands län"
+  },
+  "Fristad|Västra Götalands län/Hallands län": {
+    "lat": 57.82,
+    "lng": 13.01,
+    "county": "Västra Götalands län"
+  },
+  "Göteborg|Västra Götalands län/Hallands län": {
+    "lat": 57.71,
+    "lng": 11.97,
+    "county": "Västra Götalands län"
+  },
+  "Torslanda|Västra Götalands län/Hallands län": {
+    "lat": 57.72,
+    "lng": 11.77,
+    "county": "Västra Götalands län"
+  },
+  "Särö|Västra Götalands län/Hallands län": {
+    "lat": 57.51,
+    "lng": 11.94,
+    "county": "Hallands län"
+  },
+  "Sparsör|Västra Götalands län/Hallands län": {
+    "lat": 57.79,
+    "lng": 13,
+    "county": "Västra Götalands län"
+  },
+  "Tidan|Västra Götalands län/Hallands län": {
+    "lat": 58.57,
+    "lng": 14.01,
+    "county": "Västra Götalands län"
+  },
+  "Brastad|Västra Götalands län/Hallands län": {
+    "lat": 58.38,
+    "lng": 11.49,
+    "county": "Västra Götalands län"
+  },
+  "Gråbo|Västra Götalands län/Hallands län": {
+    "lat": 57.84,
+    "lng": 12.3,
+    "county": "Västra Götalands län"
+  },
+  "Halmstad|Hallands län": {
+    "lat": 56.67,
+    "lng": 12.86,
+    "county": "Hallands län"
+  },
+  "Slättåkra|Hallands län": {
+    "lat": 56.83,
+    "lng": 12.88,
+    "county": "Hallands län"
+  },
+  "Oskarström|Hallands län": {
+    "lat": 56.8,
+    "lng": 12.98,
+    "county": "Hallands län"
+  },
+  "Harplinge|Hallands län": {
+    "lat": 56.74,
+    "lng": 12.72,
+    "county": "Hallands län"
+  },
+  "Våxtorp|Hallands län": {
+    "lat": 56.42,
+    "lng": 13.12,
+    "county": "Hallands län"
+  },
+  "Brunflo|Jämtlands län": {
+    "lat": 63.08,
+    "lng": 14.83,
+    "county": "Jämtlands län"
+  },
+  "Hammerdal|Jämtlands län": {
+    "lat": 63.58,
+    "lng": 15.35,
+    "county": "Jämtlands län"
+  },
+  "Alnö|Västernorrlands län/Gävleborgs län": {
+    "lat": 62.42,
+    "lng": 17.46,
+    "county": "Västernorrlands län"
+  },
+  "Sundsbruk|Västernorrlands län/Gävleborgs län": {
+    "lat": 62.46,
+    "lng": 17.36,
+    "county": "Västernorrlands län"
+  },
+  "Sundsvall|Västernorrlands län/Gävleborgs län": {
+    "lat": 62.39,
+    "lng": 17.31,
+    "county": "Västernorrlands län"
+  },
+  "Kovland|Västernorrlands län/Gävleborgs län": {
+    "lat": 62.47,
+    "lng": 17.16,
+    "county": "Västernorrlands län"
+  },
+  "Söderhamn|Västernorrlands län/Gävleborgs län": {
+    "lat": 61.3,
+    "lng": 17.06,
+    "county": "Gävleborgs län"
+  },
+  "Ljungaverk|Västernorrlands län/Gävleborgs län": {
+    "lat": 62.49,
+    "lng": 16.05,
+    "county": "Västernorrlands län"
+  },
+  "Njurunda|Västernorrlands län/Gävleborgs län": {
+    "lat": 62.24,
+    "lng": 17.46,
+    "county": "Västernorrlands län"
+  },
+  "Piteå|Norrbottens län": {
+    "lat": 65.31,
+    "lng": 21.49,
+    "county": "Norrbottens län"
+  },
+  "Arvidsjaur|Norrbottens län": {
+    "lat": 65.67,
+    "lng": 19.25,
+    "county": "Norrbottens län"
+  },
+  "Kalix|Norrbottens län": {
+    "lat": 66,
+    "lng": 23,
+    "county": "Norrbottens län"
+  },
+  "Gällivare|Norrbottens län": {
+    "lat": 67.3,
+    "lng": 20.25,
+    "county": "Norrbottens län"
+  },
+  "Jämtön|Norrbottens län": {
+    "lat": 65.85,
+    "lng": 22.5,
+    "county": "Norrbottens län"
+  },
+  "Boden|Norrbottens län": {
+    "lat": 65.83,
+    "lng": 21.7,
+    "county": "Norrbottens län"
+  },
+  "Kiruna|Norrbottens län": {
+    "lat": 67.85,
+    "lng": 20.31,
+    "county": "Norrbottens län"
+  },
+  "Lindesberg|Örebro län": {
+    "lat": 59.67,
+    "lng": 15.25,
+    "county": "Örebro län"
+  },
+  "Örebro|Örebro län": {
+    "lat": 59.27,
+    "lng": 15.22,
+    "county": "Örebro län"
+  },
+  "Hökerum|Västra Götalands län": {
+    "lat": 57.84,
+    "lng": 13.29,
+    "county": "Västra Götalands län"
+  },
+  "Skara|Västra Götalands län": {
+    "lat": 58.38,
+    "lng": 13.44,
+    "county": "Västra Götalands län"
+  },
+  "Kvänum|Västra Götalands län": {
+    "lat": 58.3,
+    "lng": 13.19,
+    "county": "Västra Götalands län"
+  },
+  "Tibro|Västra Götalands län": {
+    "lat": 58.42,
+    "lng": 14.2,
+    "county": "Västra Götalands län"
+  },
+  "Lundsbrunn|Västra Götalands län": {
+    "lat": 58.47,
+    "lng": 13.45,
+    "county": "Västra Götalands län"
+  },
+  "Mariestad|Västra Götalands län": {
+    "lat": 58.71,
+    "lng": 13.82,
+    "county": "Västra Götalands län"
+  },
+  "Gällstad|Västra Götalands län": {
+    "lat": 57.67,
+    "lng": 13.43,
+    "county": "Västra Götalands län"
+  },
+  "Vänersborg|Västra Götalands län": {
+    "lat": 58.38,
+    "lng": 12.32,
+    "county": "Västra Götalands län"
+  },
+  "Töreboda|Västra Götalands län": {
+    "lat": 58.72,
+    "lng": 14.1,
+    "county": "Västra Götalands län"
+  },
+  "Skivarp|Skåne län/Blekinge län": {
+    "lat": 55.42,
+    "lng": 13.57,
+    "county": "Skåne län"
+  },
+  "Torna Hällestad|Skåne län/Blekinge län": {
+    "lat": 55.68,
+    "lng": 13.42,
+    "county": "Skåne län"
+  },
+  "Staffanstorp|Skåne län/Blekinge län": {
+    "lat": 55.65,
+    "lng": 13.2,
+    "county": "Skåne län"
+  },
+  "Mörarp|Skåne län/Blekinge län": {
+    "lat": 56.06,
+    "lng": 12.88,
+    "county": "Skåne län"
+  },
+  "Skurup|Skåne län/Blekinge län": {
+    "lat": 55.48,
+    "lng": 13.55,
+    "county": "Skåne län"
+  },
+  "Ystad|Skåne län/Blekinge län": {
+    "lat": 55.43,
+    "lng": 13.82,
+    "county": "Skåne län"
+  },
+  "Gualöv|Skåne län/Blekinge län": {
+    "lat": 56.05,
+    "lng": 14.42,
+    "county": "Skåne län"
+  },
+  "Höllviken|Skåne län/Blekinge län": {
+    "lat": 55.41,
+    "lng": 12.96,
+    "county": "Skåne län"
+  },
+  "Oxie|Skåne län/Blekinge län": {
+    "lat": 55.55,
+    "lng": 13.1,
+    "county": "Skåne län"
+  },
+  "Södra Sandby|Skåne län/Blekinge län": {
+    "lat": 55.72,
+    "lng": 13.35,
+    "county": "Skåne län"
+  },
+  "Hammenhög|Skåne län/Blekinge län": {
+    "lat": 55.5,
+    "lng": 14.15,
+    "county": "Skåne län"
+  },
+  "Bjärnum|Skåne län/Blekinge län": {
+    "lat": 56.29,
+    "lng": 13.71,
+    "county": "Skåne län"
+  },
+  "Åhus|Skåne län/Blekinge län": {
+    "lat": 55.92,
+    "lng": 14.3,
+    "county": "Skåne län"
+  },
+  "Östra Sönnarslöv|Skåne län/Blekinge län": {
+    "lat": 55.89,
+    "lng": 14.02,
+    "county": "Skåne län"
+  },
+  "Helsingborg|Skåne län/Blekinge län": {
+    "lat": 56.04,
+    "lng": 12.7,
+    "county": "Skåne län"
+  },
+  "Osby|Skåne län/Blekinge län": {
+    "lat": 56.42,
+    "lng": 14.08,
+    "county": "Skåne län"
+  },
+  "Nyhamnsläge|Skåne län/Blekinge län": {
+    "lat": 56.24,
+    "lng": 12.54,
+    "county": "Skåne län"
+  },
+  "Rinkaby (Skåne)|Skåne län/Blekinge län": {
+    "lat": 55.98,
+    "lng": 14.27,
+    "county": "Skåne län"
+  },
+  "Olofström|Skåne län/Blekinge län": {
+    "lat": 56.3,
+    "lng": 14.52,
+    "county": "Blekinge län"
+  },
+  "S Sandby|Skåne län/Blekinge län": {
+    "lat": 55.72,
+    "lng": 13.35,
+    "county": "Skåne län"
+  },
+  "Ålstorp|Skåne län/Blekinge län": {
+    "lat": 55.83,
+    "lng": 13.51,
+    "county": "Skåne län"
+  },
+  "Mörrum|Skåne län/Blekinge län": {
+    "lat": 56.19,
+    "lng": 14.75,
+    "county": "Blekinge län"
+  },
+  "Vittsjö|Skåne län/Blekinge län": {
+    "lat": 56.34,
+    "lng": 13.67,
+    "county": "Skåne län"
+  },
+  "Tomelilla|Skåne län/Blekinge län": {
+    "lat": 55.54,
+    "lng": 13.93,
+    "county": "Skåne län"
+  },
+  "Mönsterås|Jönköpings län/Kronobergs län/Kalmar län": {
+    "lat": 57.07,
+    "lng": 16.42,
+    "county": "Kalmar län"
+  },
+  "Växjö|Jönköpings län/Kronobergs län/Kalmar län": {
+    "lat": 56.88,
+    "lng": 14.81,
+    "county": "Kronobergs län"
+  },
+  "Jät|Jönköpings län/Kronobergs län/Kalmar län": {
+    "lat": 56.67,
+    "lng": 14.84,
+    "county": "Kronobergs län"
+  },
+  "Markaryd|Jönköpings län/Kronobergs län/Kalmar län": {
+    "lat": 56.55,
+    "lng": 13.6,
+    "county": "Kronobergs län"
+  },
+  "Habo|Jönköpings län/Kronobergs län/Kalmar län": {
+    "lat": 57.92,
+    "lng": 14.05,
+    "county": "Jönköpings län"
+  },
+  "Blomstermåla|Jönköpings län/Kronobergs län/Kalmar län": {
+    "lat": 56.98,
+    "lng": 16.33,
+    "county": "Kalmar län"
+  },
+  "Lenhovda|Jönköpings län/Kronobergs län/Kalmar län": {
+    "lat": 57,
+    "lng": 15.28,
+    "county": "Kronobergs län"
+  },
+  "Åseda|Jönköpings län/Kronobergs län/Kalmar län": {
+    "lat": 57.17,
+    "lng": 15.35,
+    "county": "Kronobergs län"
+  },
+  "Landsbro|Jönköpings län/Kronobergs län/Kalmar län": {
+    "lat": 57.37,
+    "lng": 14.9,
+    "county": "Jönköpings län"
+  },
+  "Rottne|Jönköpings län/Kronobergs län/Kalmar län": {
+    "lat": 57.02,
+    "lng": 14.89,
+    "county": "Kronobergs län"
+  },
+  "Bottnaryd|Jönköpings län/Kronobergs län/Kalmar län": {
+    "lat": 57.77,
+    "lng": 13.83,
+    "county": "Jönköpings län"
+  },
+  "Värmdö|Stockholms län/Gotlands län": {
+    "lat": 59.3,
+    "lng": 18.58,
+    "county": "Stockholms län"
+  },
+  "Åkersberga|Stockholms län/Gotlands län": {
+    "lat": 59.48,
+    "lng": 18.29,
+    "county": "Stockholms län"
+  },
+  "Norrtälje|Stockholms län/Gotlands län": {
+    "lat": 59.77,
+    "lng": 18.7,
+    "county": "Stockholms län"
+  },
+  "Enskededalen|Stockholms län/Gotlands län": {
+    "lat": 59.28,
+    "lng": 18.11,
+    "county": "Stockholms län"
+  },
+  "Dalarö|Stockholms län/Gotlands län": {
+    "lat": 59.13,
+    "lng": 18.41,
+    "county": "Stockholms län"
+  },
+  "Västerhaninge|Stockholms län/Gotlands län": {
+    "lat": 59.12,
+    "lng": 18.11,
+    "county": "Stockholms län"
+  },
+  "Täby|Stockholms län/Gotlands län": {
+    "lat": 59.47,
+    "lng": 18.07,
+    "county": "Stockholms län"
+  },
+  "Riala|Stockholms län/Gotlands län": {
+    "lat": 59.63,
+    "lng": 18.52,
+    "county": "Stockholms län"
+  },
+  "Tyresö|Stockholms län/Gotlands län": {
+    "lat": 59.22,
+    "lng": 18.33,
+    "county": "Stockholms län"
+  },
+  "Stockholm|Stockholms län/Gotlands län": {
+    "lat": 59.33,
+    "lng": 18.07,
+    "county": "Stockholms län"
+  },
+  "Märsta|Stockholms län/Gotlands län": {
+    "lat": 59.63,
+    "lng": 17.85,
+    "county": "Stockholms län"
+  },
+  "Rimbo|Stockholms län/Gotlands län": {
+    "lat": 59.75,
+    "lng": 18.36,
+    "county": "Stockholms län"
+  },
+  "Tynningö|Stockholms län/Gotlands län": {
+    "lat": 59.38,
+    "lng": 18.39,
+    "county": "Stockholms län"
+  },
+  "Herräng|Stockholms län/Gotlands län": {
+    "lat": 60.13,
+    "lng": 18.65,
+    "county": "Stockholms län"
+  },
+  "Bromma|Stockholms län/Gotlands län": {
+    "lat": 59.34,
+    "lng": 17.94,
+    "county": "Stockholms län"
+  },
+  "Bro|Stockholms län/Gotlands län": {
+    "lat": 59.51,
+    "lng": 17.64,
+    "county": "Stockholms län"
+  },
+  "Tullinge|Stockholms län/Gotlands län": {
+    "lat": 59.21,
+    "lng": 17.91,
+    "county": "Stockholms län"
+  },
+  "Uppsala|Uppsala län": {
+    "lat": 59.86,
+    "lng": 17.64,
+    "county": "Uppsala län"
+  },
+  "Storvreta|Uppsala län": {
+    "lat": 59.96,
+    "lng": 17.71,
+    "county": "Uppsala län"
+  },
+  "Björklinge|Uppsala län": {
+    "lat": 60.03,
+    "lng": 17.55,
+    "county": "Uppsala län"
+  },
+  "Bålsta|Uppsala län": {
+    "lat": 59.57,
+    "lng": 17.53,
+    "county": "Uppsala län"
+  },
+  "Östhammar|Uppsala län": {
+    "lat": 60.25,
+    "lng": 18.3,
+    "county": "Uppsala län"
+  },
+  "Lövstabruk|Uppsala län": {
+    "lat": 60.41,
+    "lng": 17.88,
+    "county": "Uppsala län"
+  },
+  "Almunge|Uppsala län": {
+    "lat": 59.88,
+    "lng": 18.05,
+    "county": "Uppsala län"
+  },
+  "Örbyhus|Uppsala län": {
+    "lat": 60.23,
+    "lng": 17.71,
+    "county": "Uppsala län"
+  },
+  "Tierp|Uppsala län": {
+    "lat": 60.33,
+    "lng": 17.62,
+    "county": "Uppsala län"
+  },
+  "Knivsta|Uppsala län": {
+    "lat": 59.74,
+    "lng": 17.82,
+    "county": "Uppsala län"
+  },
+  "Skokloster|Uppsala län": {
+    "lat": 59.7,
+    "lng": 17.62,
+    "county": "Uppsala län"
+  },
+  "Järlåsa|Uppsala län": {
+    "lat": 59.89,
+    "lng": 17.2,
+    "county": "Uppsala län"
+  },
+  "Edsbro|Uppsala län": {
+    "lat": 59.87,
+    "lng": 17.6,
+    "county": "Uppsala län"
+  },
+  "Alunda|Uppsala län": {
+    "lat": 60.07,
+    "lng": 18.08,
+    "county": "Uppsala län"
+  },
+  "Heby|Uppsala län": {
+    "lat": 60.1,
+    "lng": 17,
+    "county": "Uppsala län"
+  },
+  "Karlstad|Värmlands län/Västra Götalands län": {
+    "lat": 59.38,
+    "lng": 13.5,
+    "county": "Värmlands län"
+  },
+  "Kil|Värmlands län/Västra Götalands län": {
+    "lat": 59.57,
+    "lng": 13.18,
+    "county": "Värmlands län"
+  },
+  "Tösse|Värmlands län/Västra Götalands län": {
+    "lat": 58.97,
+    "lng": 12.64,
+    "county": "Västra Götalands län"
+  },
+  "Åmål|Värmlands län/Västra Götalands län": {
+    "lat": 58.98,
+    "lng": 12.61,
+    "county": "Västra Götalands län"
+  },
+  "Grums|Värmlands län/Västra Götalands län": {
+    "lat": 59.45,
+    "lng": 13.08,
+    "county": "Värmlands län"
+  },
+  "Vålberg|Värmlands län/Västra Götalands län": {
+    "lat": 59.4,
+    "lng": 13.19,
+    "county": "Värmlands län"
+  },
+  "Brunskog|Värmlands län/Västra Götalands län": {
+    "lat": 59.65,
+    "lng": 12.89,
+    "county": "Värmlands län"
+  },
+  "Säffle|Värmlands län/Västra Götalands län": {
+    "lat": 59.12,
+    "lng": 12.85,
+    "county": "Värmlands län"
+  },
+  "Årjäng|Värmlands län/Västra Götalands län": {
+    "lat": 59.42,
+    "lng": 12.17,
+    "county": "Värmlands län"
+  },
+  "Umeå|Västerbottens län": {
+    "lat": 63.83,
+    "lng": 20.26,
+    "county": "Västerbottens län"
+  },
+  "Vännäs|Västerbottens län": {
+    "lat": 63.95,
+    "lng": 19.67,
+    "county": "Västerbottens län"
+  },
+  "Täfteå|Västerbottens län": {
+    "lat": 63.84,
+    "lng": 20.48,
+    "county": "Västerbottens län"
+  },
+  "Holmsund|Västerbottens län": {
+    "lat": 63.71,
+    "lng": 20.37,
+    "county": "Västerbottens län"
+  },
+  "Västerås|Västmanlands län": {
+    "lat": 59.61,
+    "lng": 16.55,
+    "county": "Västmanlands län"
+  },
+  "Skultuna|Västmanlands län": {
+    "lat": 59.72,
+    "lng": 16.43,
+    "county": "Västmanlands län"
+  },
+  "Norberg|Västmanlands län": {
+    "lat": 60.09,
+    "lng": 15.95,
+    "county": "Västmanlands län"
+  },
+  "Kolbäck|Västmanlands län": {
+    "lat": 59.56,
+    "lng": 16.24,
+    "county": "Västmanlands län"
+  },
+  "Arboga|Västmanlands län": {
+    "lat": 59.39,
+    "lng": 15.84,
+    "county": "Västmanlands län"
+  },
+  "Sala|Västmanlands län": {
+    "lat": 59.92,
+    "lng": 16.61,
+    "county": "Västmanlands län"
+  },
+  "Trehörningsjö|Västernorrlands län": {
+    "lat": 63.71,
+    "lng": 18.84,
+    "county": "Västernorrlands län"
+  },
+  "Sollefteå|Västernorrlands län": {
+    "lat": 63.38,
+    "lng": 16.92,
+    "county": "Västernorrlands län"
+  },
+  "Hållsta|Östergötlands län/Södermanlands län": {
+    "lat": 59.3,
+    "lng": 16.45,
+    "county": "Södermanlands län"
+  },
+  "Motala|Östergötlands län/Södermanlands län": {
+    "lat": 58.54,
+    "lng": 15.04,
+    "county": "Östergötlands län"
+  },
+  "Sköldinge|Östergötlands län/Södermanlands län": {
+    "lat": 59.03,
+    "lng": 16.45,
+    "county": "Södermanlands län"
+  },
+  "Kvicksund|Östergötlands län/Södermanlands län": {
+    "lat": 59.45,
+    "lng": 16.32,
+    "county": "Södermanlands län"
+  },
+  "Gnesta|Östergötlands län/Södermanlands län": {
+    "lat": 59.05,
+    "lng": 17.03,
+    "county": "Södermanlands län"
+  },
+  "Stallarholmen|Östergötlands län/Södermanlands län": {
+    "lat": 59.36,
+    "lng": 17.21,
+    "county": "Södermanlands län"
+  },
+  "Söderköping|Östergötlands län/Södermanlands län": {
+    "lat": 58.48,
+    "lng": 16.32,
+    "county": "Östergötlands län"
+  },
+  "Eskilstuna|Östergötlands län/Södermanlands län": {
+    "lat": 59.37,
+    "lng": 16.51,
+    "county": "Södermanlands län"
+  },
+  "Norrköping|Östergötlands län/Södermanlands län": {
+    "lat": 58.59,
+    "lng": 16.19,
+    "county": "Östergötlands län"
+  },
+  "Skärblacka|Östergötlands län/Södermanlands län": {
+    "lat": 58.58,
+    "lng": 15.92,
+    "county": "Östergötlands län"
+  },
+  "Norrälje|Stockholms län/Gotlands län": {
+    "lat": 59.76,
+    "lng": 18.7,
+    "county": "Stockholms län"
+  },
+  "Örbyhus|Stockholms län/Gotlands län": {
+    "lat": 60.23,
+    "lng": 17.71,
+    "county": "Uppsala län"
+  },
+  "Höjeshall Larv|Västra Götalands län": {
+    "lat": 58.19,
+    "lng": 13.13,
+    "county": "Västra Götalands län"
+  },
+  "Orrviken|Jämtlands län": {
+    "lat": 63.11,
+    "lng": 14.44,
+    "county": "Jämtlands län"
+  },
+  "Ås|Jämtlands län": {
+    "lat": 63.25,
+    "lng": 14.57,
+    "county": "Jämtlands län"
+  }
+}

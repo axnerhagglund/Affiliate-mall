@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+/* Brand colours come from the breed config, set as variables on <html>. */
+@theme inline {
+  --color-brand: var(--brand);
+  --color-brand-dark: var(--brand-dark);
+  --color-brand-soft: var(--brand-soft);
+  --color-accent: var(--accent);
+  --color-ink: #17211b;
+  --color-muted: #4d5a51;
+  --color-line: #dde5dc;
+  --color-page: #fafaf5;
+  --font-sans: var(--font-body);
+  --font-display: var(--font-heading);
+}
+
+body {
+  background: var(--color-page);
+  color: var(--color-ink);
+}
+
+/* Article body typography for MDX output. */
+.prose {
+  line-height: 1.7;
+  font-size: 1.0625rem;
+}
+.prose > * + *:not(:where(.not-prose, .not-prose *)) {
+  margin-top: 1.1em;
+}
+.prose h2:not(:where(.not-prose, .not-prose *)) {
+  margin-top: 2em;
+  color: var(--brand-dark);
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.25;
+  scroll-margin-top: 5rem;
+}
+.prose h3:not(:where(.not-prose, .not-prose *)) {
+  margin-top: 1.6em;
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 600;
+  scroll-margin-top: 5rem;
+}
+.prose a:not(:where(.not-prose, .not-prose *)) {
+  color: var(--brand-dark);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose ul:not(:where(.not-prose, .not-prose *)) {
+  list-style: disc;
+  padding-left: 1.4em;
+}
+.prose ol:not(:where(.not-prose, .not-prose *)) {
+  list-style: decimal;
+  padding-left: 1.4em;
+}
+.prose li + li:not(:where(.not-prose, .not-prose *)) {
+  margin-top: 0.35em;
+}
+.prose table:not(:where(.not-prose, .not-prose *)) {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.prose th:not(:where(.not-prose, .not-prose *)),
+.prose td:not(:where(.not-prose, .not-prose *)) {
+  border-bottom: 1px solid var(--color-line);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+.prose blockquote:not(:where(.not-prose, .not-prose *)) {
+  border-left: 3px solid var(--brand);
+  padding-left: 1em;
+  color: var(--color-muted);
+}
+/* GFM task lists ("- [ ]"): the checkbox replaces the bullet. */
+.prose ul.contains-task-list {
+  list-style: none;
+  padding-left: 0;
+}
+.prose .task-list-item input {
+  margin-right: 0.5em;
+  accent-color: var(--brand);
+}

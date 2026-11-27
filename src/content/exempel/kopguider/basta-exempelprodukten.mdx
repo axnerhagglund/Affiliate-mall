@@ -1,0 +1,51 @@
+---
+title: "Bästa exempelprodukten – topp 3"
+metaTitle: "Bästa exempelprodukten: topp 3"
+description: "Exempel på en köpguide i mallen: jämförelsetabell, produktkort med pris och butik, styrkor och svagheter, tips och vanliga frågor. Produkterna är påhittade."
+lead: "Köpguiden visar alla komponenter för produkter: tabellen överst, ett kort per produkt och notisen om annonslänkar, som visas automatiskt."
+type: kop
+published: "2026-11-27"
+featured: true
+draft: false
+faq:
+  - question: "Är produkterna riktiga?"
+    answer: "Nej. Produkterna och priserna på exempelsajten är påhittade och visar bara hur korten ser ut."
+  - question: "Var kommer produkterna ifrån?"
+    answer: "Från src/data/exempel/products.json. Artikeln anger bara produktens id."
+---
+
+Ingressen svarar direkt på frågan: vilken produkt passar bäst, och för vem.
+
+## Så valde vi
+
+<Callout type="tip">
+Skriv hur produkterna valdes. Skriv aldrig att något är testat om ingen har testat det.
+</Callout>
+
+<ProductTable ids={["exempelprodukt-a", "exempelprodukt-b", "exempelprodukt-c"]} />
+
+## Topp 3
+
+### 1. Exempelprodukt A
+
+Två till tre stycken om varför produkten passar.
+
+<ProsCons pros={["Första styrkan", "Andra styrkan"]} cons={["En svaghet"]} />
+
+<ProductCard id="exempelprodukt-a" />
+
+### 2. Exempelprodukt B
+
+<ProductCard id="exempelprodukt-b" />
+
+### 3. Exempelprodukt C
+
+<ProductCard id="exempelprodukt-c" />
+
+<Callout type="warning">
+Priser ändras ofta. Varje pris har ett datum för när det kontrollerades.
+</Callout>
+
+## Vanliga frågor
+
+<FAQ />

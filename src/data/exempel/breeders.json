@@ -1,0 +1,67 @@
+{
+  "externalLists": [
+    {
+      "name": "Påhittad extern lista",
+      "url": "https://example.com"
+    }
+  ],
+  "kennels": [
+    {
+      "kennel": "Kennel Exempel Norr",
+      "town": "Umeå",
+      "county": "Västerbottens län",
+      "lat": 63.8258,
+      "lng": 20.263,
+      "url": "https://example.com/a",
+      "skk": true
+    },
+    {
+      "kennel": "Kennel Exempel Mitt",
+      "town": "Uppsala",
+      "county": "Uppsala län",
+      "lat": 59.8586,
+      "lng": 17.6389
+    },
+    {
+      "kennel": "Kennel Exempel Stad",
+      "town": "Stockholm",
+      "county": "Stockholms län",
+      "lat": 59.3293,
+      "lng": 18.0686,
+      "url": "https://example.com/b"
+    },
+    {
+      "kennel": "Kennel Exempel Väst",
+      "town": "Göteborg",
+      "county": "Västra Götalands län",
+      "lat": 57.7089,
+      "lng": 11.9746
+    },
+    {
+      "kennel": "Kennel Exempel Syd",
+      "town": "Lund",
+      "county": "Skåne län",
+      "lat": 55.7047,
+      "lng": 13.191,
+      "url": "https://example.com/c",
+      "skk": true,
+      "tags": [
+        "Utställningslinje"
+      ],
+      "owners": "Påhittad Person och Exempel Persson",
+      "email": "exempel@example.com",
+      "description": "Påhittad beskrivning: liten uppfödning i hemmiljö. Texten ska skrivas av kenneln själv eller av oss, aldrig kopieras från kennelns webbplats."
+    },
+    {
+      "kennel": "Kennel Exempel Kust",
+      "town": "Malmö",
+      "county": "Skåne län",
+      "lat": 55.605,
+      "lng": 13.0038,
+      "skk": true,
+      "tags": [
+        "Jaktlinje"
+      ]
+    }
+  ]
+}

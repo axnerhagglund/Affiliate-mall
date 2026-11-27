@@ -1,0 +1,45 @@
+{
+  "name": "affiliate-mall",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "node --import tsx --test \"tests/**/*.test.ts\"",
+    "typecheck": "next typegen && tsc --noEmit",
+    "check-links": "tsx scripts/check-links.ts",
+    "scrape-breeders": "tsx scripts/scrape-breeders.ts",
+    "bilder": "node scripts/bilder.mjs"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "github-slugger": "^2.0.0",
+    "gray-matter": "^4.0.3",
+    "leaflet": "^1.9.4",
+    "next": "16.4.6",
+    "next-mdx-remote": "^6.0.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "rehype-slug": "^6.0.0",
+    "remark-gfm": "^4.0.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "4.3.3",
+    "@types/leaflet": "1.9",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "sharp": "^0.35.5",
+    "tailwindcss": "4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
