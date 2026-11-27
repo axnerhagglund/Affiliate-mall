@@ -12,6 +12,8 @@
 | Adtraction | Många svenska butiker | `epi` |
 | Awin | Större internationella butiker | `clickref` |
 | Addrevenue | Svenska butiker | Kontrollera i nätverkets hjälptexter |
+| CJ Affiliate | Internationella varumärken, t.ex. tillverkare | `sid` |
+| Tradedoubler | Svenska och europeiska butiker | `epi` (kontrollera i nätverkets hjälptexter) |
 
 Har du redan ett konto lägger du till den nya sajten som en ny kanal eller webbplats. Ansök sedan till varje butiks program.
 
@@ -25,7 +27,7 @@ Har du redan ett konto lägger du till den nya sajten som en ny kanal eller webb
 
 - `name` visas på knappen: "Köp på Butik A".
 - `subIdParam` gör att artikelns slug skickas med, så att du ser vilka sidor som säljer.
-- `hosts` är butikens och spårningens domäner. Testet stoppar direktlänkar till dem i MDX, och produktbilder får hämtas därifrån.
+- `hosts` är butikens och spårningens domäner. Testet stoppar direktlänkar till dem i MDX, och produktbilder får hämtas därifrån. Källor i `sources` får peka på butikens faktasidor (till exempel en tillverkares manual), men aldrig länkar i texten.
 
 ## Produkter
 

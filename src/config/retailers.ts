@@ -7,7 +7,7 @@
 export type Retailer = {
   /** Shown on buttons: "Köp på {name}". */
   name: string;
-  network: "adtraction" | "awin" | "addrevenue" | "direkt";
+  network: "adtraction" | "awin" | "addrevenue" | "cj" | "tradedoubler" | "direkt";
   /** Query parameter for the article slug, or null when the network has none. */
   subIdParam: string | null;
   /**
@@ -24,4 +24,16 @@ export const retailers: Record<string, Retailer> = {
 };
 
 /** Tracking hosts of the networks themselves, which MDX must not link to either. */
-export const networkHosts = ["track.adtraction.com", "awin1.com", "addrevenue.io"];
+export const networkHosts = [
+  "track.adtraction.com",
+  "awin1.com",
+  "addrevenue.io",
+  // CJ Affiliate click domains
+  "anrdoezrs.net",
+  "dpbolvw.net",
+  "jdoqocy.com",
+  "kqzyfj.com",
+  "tkqlhce.com",
+  // Tradedoubler
+  "clk.tradedoubler.com",
+];

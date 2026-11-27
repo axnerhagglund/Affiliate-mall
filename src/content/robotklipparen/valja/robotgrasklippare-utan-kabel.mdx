@@ -1,0 +1,65 @@
+---
+title: "Robotgräsklippare utan kabel – så fungerar RTK och virtuella gränser"
+metaTitle: "Robotgräsklippare utan kabel: så funkar RTK"
+description: "Så hittar en kabelfri robotgräsklippare: satellitpositionering med RTK-korrigering från station eller moln, virtuella gränser i appen och krav på tomten."
+lead: "En robotgräsklippare utan kabel vet var den är med hjälp av satelliter och en korrigeringssignal (RTK), som ger centimeterprecision. Gränserna ritar du i en app. Det kräver fri sikt mot himlen och, om korrigeringen går via internet, bra täckning över hela gräsmattan."
+image: "/images/robotklipparen/utan-kabel-referensstation.webp"
+imageAlt: "Robotgräsklippare på en öppen gräsmatta utan kabel, med en vit referensantenn på taket till en röd förrådsbod under fri himmel."
+type: info
+published: "2026-11-27"
+draft: false
+faq:
+  - question: "Vad betyder RTK?"
+    answer: "Real Time Kinematic: en teknik där en referensstation med känd position skickar korrigeringsdata till roboten, så att satellitpositionen blir exakt på centimeternivå."
+  - question: "Behöver jag en egen referensstation?"
+    answer: "Inte alltid. Husqvarna erbjuder korrigering via Husqvarna Cloud, och Gardena tar emot korrigeringsdata via sin smart Gateway. En egen station kan behövas om du saknar stabil internetanslutning över hela gräsmattan."
+  - question: "Finns det kabelfria robotar utan satellit?"
+    answer: "Ja. Enligt Bygghemma navigerar modeller med LiDAR eller kamera lokalt, helt utan satelliter."
+sources:
+  - name: "Husqvarna – Virtuella gränser med RTK-positionering (EPOS)"
+    url: "https://www.husqvarna.com/se/utforska-och-upptack/husqvarna-epos/"
+  - name: "Husqvarna – EPOS RS5 referensstation"
+    url: "https://www.husqvarna.com/se/installation-av-robotgrasklippare/epos-rs5-referensstation/"
+  - name: "Husqvarna – EPOS RS1 referensstation"
+    url: "https://www.husqvarna.com/fi-sv/installation-av-robotgrasklippare/husqvarna-epos-rs1-referensstation/"
+  - name: "Gardena – Installera robotgräsklippare utan begränsningskabel"
+    url: "https://www.gardena.com/se/c/service-support/planering-radgivning/supportcenter-for-robotgrasklippare/installation/sa-installerar-du-en-robotgrasklippare-utan-begransningskabel"
+  - name: "Clas Ohlson – Navigationssystem för robotgräsklippare"
+    url: "https://www.clasohlson.com/se/navigation-robotgrasklippare"
+  - name: "Bygghemma – Robotgräsklippare med GPS utan kabel"
+    url: "https://www.bygghemma.se/reportage-och-guider/robotgrasklippare-gps-utan-kabel/"
+---
+
+## Satellit plus korrigering
+
+Vanlig satellitpositionering är för grov för att hålla en robot inom en gräsmatta. Därför används RTK: en referensstation med känd position räknar ut felet i satellitsignalen och skickar korrigeringsdata till roboten. Husqvarna beskriver att deras EPOS-system använder minst två mottagare – en referensstation eller Husqvarna Cloud, och själva robotgräsklipparen. Clas Ohlson skriver att RTK ger centimeterprecision.
+
+## Tre sätt att få korrigeringen
+
+| Lösning | Hur korrigeringen kommer fram | Exempel |
+|---|---|---|
+| Egen referensstation | Över radio från en station i trädgården | Husqvarna EPOS RS1, räckvidd 100 m. RS5, räckvidd upp till 500 m |
+| Nätverks-RTK | Via internet, utan egen station | Husqvarna Cloud. Gardena tar emot korrigeringsdata via smart Gateway |
+| Utan satellit | LiDAR eller kamera som navigerar lokalt | Enligt Bygghemma fungerar de helt utan satelliter |
+
+Husqvarna anger att en egen station (RS1) kan användas om du inte har en stabil internetanslutning över hela gräsmattan. Räckvidderna gäller enligt Husqvarnas produktsidor.
+
+## Virtuella gränser i appen
+
+I stället för att lägga kabel går du eller kör runt gräsmattan och sparar gränsen i appen. Gardena beskriver att installationen görs i appen, där referenspunkter läggs till för att skapa en karta. Du kan sedan dela upp ytan i zoner och stänga av områden, till exempel en rabatt.
+
+## Vad tomten kräver
+
+- **Fri sikt mot himlen.** Clas Ohlson varnar för att täta träd, väggar och smala gångar kan påverka precisionen.
+- **Breda passager.** Gardena anger att smala passager med upphöjda föremål på någon sida, som byggnader, häckar eller träd, behöver vara minst 4 meter breda.
+- **Uppkoppling.** Robotar som får korrigeringen via internet behöver stabil täckning över hela ytan.
+
+<Callout type="tip">
+Ställ dig på de trängsta och mest skuggade ställena på tomten och kontrollera mobiltäckningen där. Det är där en kabelfri robot oftast får problem.
+</Callout>
+
+Är du osäker? Läs jämförelsen [gränskabel eller utan kabel](/granskabel-eller-utan-kabel) eller tillbaka till [guiden](/robotgrasklippare).
+
+## Vanliga frågor
+
+<FAQ />
